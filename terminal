@@ -1,0 +1,8 @@
+git init
+git remote add origin https://github.com/SEU_USUARIO/clearit.git
+git add index.html esqueci-senha.html dashboard-*.html \
+  reuniao-*.html feedback-*.html historico.html painel-rh.html \
+  usuarios.html notificacoes.html logs.html css/ js/ favicon.ico \
+  README.md .nojekyll .gitignore
+git commit -m "Clear IT MVP v1"
+git push -u origin main
